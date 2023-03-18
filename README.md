@@ -35,7 +35,7 @@ Visual results (from left to right): target, target inset, ZF, teacher, student,
 
 ## System setup:
 #### Dependencies:
-https://github.com/GayathriMatcha/SFT-KD-Recon/blob/main/requirements.txt
+[Requirements](https://github.com/GayathriMatcha/SFT-KD-Recon/blob/main/requirements.txt)
 
 #### Directory Structure:
 ```
