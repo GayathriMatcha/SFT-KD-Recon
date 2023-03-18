@@ -100,9 +100,5 @@ Example: {DATASET_TYPE} = cardiac, {ACC_FACTOR} = 4x, {MODEL} = attention_imitat
                     |-- 2.h5
                     |..
 ```
-#### Citation
 
-```
-Learning a Student-friendly Teacher for Knowledge Distillation in MRI Reconstruction
-```
 
