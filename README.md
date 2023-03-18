@@ -1,2 +1,2 @@
 # SFTN-KD-Recon
-Student-Friendly Teacher network training in Knowledge Distillation 
+## Learning a Student-friendly Teacher for Knowledge Distillation in MRI Reconstruction
