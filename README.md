@@ -13,6 +13,14 @@ rec (blue arrows), and Limit (violet arrows). Note that all the
 blocks of the student learn initial weights except the first block during SFT training.
 
 https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/Quant_result.png
-
+https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/SFT_teacher.png
+https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/algorithm.png
+https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/results.png
+https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/sft_overview.png
+![alt text](https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/sft_overview.png?raw=true)
+![alt text](https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/SFT_teacher.png?raw=true)
+![alt text](https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/algorithm.png?raw=true)
+![alt text](https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/results.png?raw=true)
+![alt text](https://github.com/GayathriMatcha/SFTN-KD-Recon/blob/main/Images/Quant_result.png?raw=true)
 
 
