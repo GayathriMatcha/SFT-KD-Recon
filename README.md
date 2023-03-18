@@ -38,8 +38,71 @@ Visual results (from left to right): target, target inset, ZF, teacher, student,
 https://github.com/GayathriMatcha/SFT-KD-Recon/blob/main/requirements.txt
 
 #### Directory Structure:
+```
+├── KD-MRI
+    |-- Cardiac_reconstruction
+    |-- us_masks
+    ...
+├── datasets
+    |-- {DATASET_TYPE}
+        |-- train
+            |-- acc_{ACC_FACTOR}
+                |-- 1.h5
+                |-- 2.h5
+                |..
+        |-- validation
+           |--acc_{ACC_FACTOR}
+                |-- 1.h5
+                |-- 2.h5
+                |..
+├── experiments
+    |-- {DATASET_TYPE}
+        |-- acc_{ACC_FACTOR}
+            |-- {MODEL}_{MODEL_TYPE}
+                |-- best_model.pt
+                |-- model.pt
+                |-- summary
+                |-- results
+                    |-- 1.h5
+                    |-- 2.h5
+                    |-- .
+                |-- report.txt
+```
 
-####
+Example: {DATASET_TYPE} = cardiac, {ACC_FACTOR} = 4x, {MODEL} = attention_imitation, {MODEL_TYPE} = teacher
+```
+├── KD-MRI
+    |-- reconstruction
+    |-- super-resolution
+    |-- us_masks
+    ...
+├── datasets
+    |-- cardiac
+        |-- train
+            |--acc_4x
+                |-- 1.h5
+                |-- 2.h5
+                |..
+        |-- validation
+           |--acc_4x
+                |-- 1.h5
+                |-- 2.h5
+                |..
+├── experiments
+    |-- cardiac
+        |-- acc_4x
+            |-- attention_imitation_teacher
+                |-- best_model.pt
+                |-- model.pt
+                |-- summary
+                |-- results
+                    |-- 1.h5
+                    |-- 2.h5
+                    |..
+```
+#### Citation
 
-
+```
+Learning a Student-friendly Teacher for Knowledge Distillation in MRI Reconstruction
+```
 
