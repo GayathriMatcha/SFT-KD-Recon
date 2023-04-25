@@ -1,7 +1,8 @@
 # SFT-KD-Recon
-## Learning a Student-friendly Teacher for Knowledge Distillation in MRI Reconstruction
+## [Learning a Student-friendly Teacher for Knowledge Distillation in MRI Reconstruction](https://arxiv.org/pdf/2304.05057.pdf)
 
 ### Knowledge Distillation:
+
 
 Comparison between the standard KD and SFT-KD-Recon. (a) The standard KD trains teacher alone and distills knowledge to student. (b) SFT-KD-Recon trains the
 teacher along with the student branches and then distills effective knowledge to student. (c) SFT Vs SFT-KD-Recon, the former learns in the feature domain via residual CNN while the latter learns in the image domain via image domain CNN.
