@@ -100,4 +100,5 @@ Example: {DATASET_TYPE} = cardiac, {ACC_FACTOR} = 4x, {MODEL} = attention_imitat
                     |..
 ```
 
-
+## Citation:
+Gayathri, M.N., Ramanarayanan, S., Fahim, M.A., Ram, K. and Sivaprakasam, M., 2023. SFT-KD-Recon: Learning a Student-friendly Teacher for Knowledge Distillation in Magnetic Resonance Image Reconstruction. arXiv preprint arXiv:2304.05057.
